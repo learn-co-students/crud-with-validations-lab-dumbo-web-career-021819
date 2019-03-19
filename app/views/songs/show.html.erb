@@ -1,0 +1,11 @@
+<h1>Song Info</h1>
+
+<ul>
+  <li><%= @song.title %></li>
+  <li><%= @song.released %></li>
+  <li><%= @song.release_year %></li>
+  <li><%= @song.artist_name %></li>
+  <li><%= @song.genre %></li>
+</ul>
+
+<%= link_to 'Delete', songs_destroy_path(@song) %>
